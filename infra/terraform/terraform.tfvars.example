@@ -1,0 +1,5 @@
+do_token     = "your_digitalocean_api_token_here"
+cluster_name = "todoapp-cluster"
+region       = "sgp1"
+node_size    = "s-2vcpu-2gb"
+node_count   = 1
