@@ -5,7 +5,7 @@ terraform {
     organization = "iqbal-hakim"
 
     workspaces {
-      name = "todo-on-k8s"
+      name = "todo-app-on-k8s"
     }
   }
 
