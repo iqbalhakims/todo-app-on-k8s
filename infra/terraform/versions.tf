@@ -18,5 +18,5 @@ terraform {
 }
 
 provider "digitalocean" {
-  token = var.do_token
+  # token is read from DIGITALOCEAN_TOKEN environment variable
 }

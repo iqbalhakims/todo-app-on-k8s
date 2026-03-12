@@ -1,9 +1,3 @@
-variable "do_token" {
-  description = "DigitalOcean API token"
-  type        = string
-  sensitive   = true
-}
-
 variable "cluster_name" {
   description = "Name of the Kubernetes cluster"
   type        = string
